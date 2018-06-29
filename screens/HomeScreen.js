@@ -42,7 +42,9 @@ export default class HomeScreen extends React.Component {
             </View>
 
             <Text style={styles.getStartedText}>
-              Hello World! This is moodBooster!
+              Hello World!
+              This is moodBooster!
+              Hei lars petter!
             </Text>
           </View>
 
