@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { AppRegistry, View, Text, Image, FlatList, StyleSheet, ScrollView } from 'react-native'
 
+
 class Counter extends Component {
 
   state = {count: 0}
@@ -34,7 +35,10 @@ const rows = [
 const extractKey = ({id}) => id
 
 
-export default class App extends Component {
+export default class CounterScreen extends Component {
+  static navigationOptions = {
+    title: 'Counter',
+  };
 
   renderItem = ({item}) => {
     return (
